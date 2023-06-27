@@ -1,7 +1,44 @@
-.active-link {
-    font-weight: bold;
+* {
+    color: #4846CB;
+    text-decoration: none;
 }
 
-* {
-    color: #4846CB
+#nav-container {
+    display: flex;
+    position: relative;
+    z-index: 5;
+    border: 5px solid limegreen;
+    justify-content: space-between
+}
+
+#navbar {
+    border: 5px solid red;
+
+}
+
+#logo {
+    font-weight: bolder;
+    font-size: 2rem;
+    border: 5px solid blue
+}
+
+ul a {
+    display: block;
+    padding: 8px 16px;
+    margin-bottom: 11px;
+    width: 200px;
+    text-decoration: none;
+    background-color: #4846CB;
+    color: white;
+    border: 5px solid hotpink
+}
+
+ul a:hover {
+    width: 200px;
+    color: #4846CB;
+    background-color: white;
+}
+
+.active-link {
+    font-weight: bold;
 }
