@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,ts}"],
   theme: {
+    fontfamily: {
+      'roboto': ["Roboto"]
+    },
     extend: {
       colors: {
         textPurple: "#5841D8",

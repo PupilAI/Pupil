@@ -1,3 +1,22 @@
 p {
     background-color: #EDE3FB;
 }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+}
+
+#header {
+    font-family: 'Roboto';
+}
+
+#homecontainer {
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.font-roboto {
+    font-size: 60px;
+    display: inline
+}
