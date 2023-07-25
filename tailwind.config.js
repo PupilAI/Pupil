@@ -10,6 +10,7 @@ module.exports = {
         textPurple: "#5841D8",
         bgPurple: "#EDE3FB",
         descPurple: "#32257D",
+        themePurple: "#4846CB"
       },
     },
   },
