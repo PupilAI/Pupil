@@ -65,7 +65,7 @@ ul a:hover {
     background-color: white;
 }
 
-@media(max-width:768px) {
+/* @media(max-width:768px) {
     .navbar-list {
         display: none;
     }
@@ -86,4 +86,4 @@ ul a:hover {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-}
+} */
