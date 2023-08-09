@@ -1,3 +1,4 @@
+/* 
 * {
     color: #4846CB;
     text-decoration: none;
@@ -5,11 +6,9 @@
 
 #nav-container {
     z-index: 5;
-    /* border: 5px solid limegreen; */
 }
 
 #navbar {
-    /* border: 5px solid red; */
     float: right;
     margin-right: 50px;
     margin-top: 50px;
@@ -21,7 +20,6 @@
     margin-top: 50px;
     margin-left: 50px;
     display: inline-block;
-    /* border: 5px solid blue; */
 }
 
 ul a {
@@ -32,7 +30,6 @@ ul a {
     text-decoration: none;
     background-color: #4846CB;
     color: white;
-    /* border: 5px solid hotpink */
 }
 
 ul a:hover {
@@ -63,7 +60,7 @@ ul a:hover {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: white;
-}
+} */
 
 /* @media(max-width:768px) {
     .navbar-list {

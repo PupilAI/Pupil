@@ -3,6 +3,11 @@
     src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 }
 
+.home-page {
+    /* background-image: url("../../../assets/background5.jpg"); */
+    background-size: cover;
+}
+
 #header {
     font-family: 'Roboto';
 }
@@ -10,24 +15,4 @@
 .font-roboto {
     font-size: 60px;
     display: inline
-}
-
-.custom-shape-divider-bottom-1690342931 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1690342931 svg {
-    position: relative;
-    display: block;
-    width: calc(132% + 1.3px);
-    height: 133px;
-}
-
-.custom-shape-divider-bottom-1690342931 .shape-fill {
-    fill: #32257D;
 }
