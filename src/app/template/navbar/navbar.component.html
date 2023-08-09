@@ -1,4 +1,4 @@
-<div id="nav-container">
+<!-- <div id="nav-container">
   <div id="navbar" class="sticky">
     <ul className="navbar-list">
       <ul className="nav-item active">
@@ -17,4 +17,35 @@
       </ul>
     </ul>
   </div>
-</div>
+</div> -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<header class="bg-white">
+  <nav class="flex justify-between items-center w-[92%] bg-white mx-auto">
+    <div class="flex ml-[calc(10vw)] text-[calc(3vw)] font-bold  text-themePurple">
+      <img src="../../../assets/eyeball.png" class="w-24 h-24 mr-2" alt="..." />
+      PUPILAI
+    </div>
+    <div
+      class="md:static bg-white text-themePurple font-medium absolute md:min-h-fit md:w-auto left-0 min-h-[60vh] top-[9%] w-full flex items-center px-5">
+      <ul class="flex md:flex-row md:gap-[4vw] flex-col md:items-center gap-8">
+        <li>
+          <a className="nav-link" routerLink="" routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{ exact: true }">Home
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" routerLink="contact" routerLinkActive="active-link">Contact</a>
+
+        </li>
+        <li>
+          <a class="nav-link" routerLink="menu" routerLinkActive="active-link">Menu</a>
+        </li>
+        <li>
+          <a class="nav-link" routerLink="about" routerLinkActive="active-link">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
